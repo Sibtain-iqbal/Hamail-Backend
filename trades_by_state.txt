@@ -1,0 +1,508 @@
+[
+  {
+    "state": "STABLE",
+    "trades": [
+      {
+        "entryTime": "2024-01-15T08:00:00Z",
+        "exitTime": "2024-01-15T09:30:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": 180.0,
+        "riskRewardAchieved": 1.8,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Clean setup, held to target"
+      },
+      {
+        "entryTime": "2024-01-15T14:00:00Z",
+        "exitTime": "2024-01-15T15:20:00Z",
+        "riskPercentUsed": 1.5,
+        "profitLoss": 120.0,
+        "riskRewardAchieved": 1.6,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Good entry, followed plan"
+      },
+      {
+        "entryTime": "2024-01-16T08:15:00Z",
+        "exitTime": "2024-01-16T09:45:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": -100.0,
+        "riskRewardAchieved": 0.0,
+        "session": "LONDON",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Stop loss respected"
+      },
+      {
+        "entryTime": "2024-01-16T14:30:00Z",
+        "exitTime": "2024-01-16T16:00:00Z",
+        "riskPercentUsed": 1.8,
+        "profitLoss": 200.0,
+        "riskRewardAchieved": 2.0,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Perfect execution"
+      },
+      {
+        "entryTime": "2024-01-17T08:00:00Z",
+        "exitTime": "2024-01-17T09:15:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": 150.0,
+        "riskRewardAchieved": 1.5,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Within plan parameters"
+      },
+      {
+        "entryTime": "2024-01-17T14:15:00Z",
+        "exitTime": "2024-01-17T15:30:00Z",
+        "riskPercentUsed": 1.5,
+        "profitLoss": 135.0,
+        "riskRewardAchieved": 1.8,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Consistent performance"
+      },
+      {
+        "entryTime": "2024-01-18T08:30:00Z",
+        "exitTime": "2024-01-18T10:00:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": 160.0,
+        "riskRewardAchieved": 1.6,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Good discipline"
+      },
+      {
+        "entryTime": "2024-01-18T14:00:00Z",
+        "exitTime": "2024-01-18T15:45:00Z",
+        "riskPercentUsed": 1.8,
+        "profitLoss": -90.0,
+        "riskRewardAchieved": 0.0,
+        "session": "NY",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Stop loss hit, moved on"
+      },
+      {
+        "entryTime": "2024-01-19T08:00:00Z",
+        "exitTime": "2024-01-19T09:30:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": 190.0,
+        "riskRewardAchieved": 1.9,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Strong setup"
+      },
+      {
+        "entryTime": "2024-01-19T14:20:00Z",
+        "exitTime": "2024-01-19T16:00:00Z",
+        "riskPercentUsed": 1.5,
+        "profitLoss": 140.0,
+        "riskRewardAchieved": 1.87,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Ending week strong"
+      }
+    ]
+  },
+  {
+    "state": "OVEREXTENDED",
+    "trades": [
+      {
+        "entryTime": "2024-01-20T08:00:00Z",
+        "exitTime": "2024-01-20T09:15:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": 100.0,
+        "riskRewardAchieved": 1.0,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Trade 1 of the day"
+      },
+      {
+        "entryTime": "2024-01-20T09:30:00Z",
+        "exitTime": "2024-01-20T10:45:00Z",
+        "riskPercentUsed": 2.5,
+        "profitLoss": -125.0,
+        "riskRewardAchieved": 0.0,
+        "session": "LONDON",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Trade 2 - should have stopped"
+      },
+      {
+        "entryTime": "2024-01-20T11:00:00Z",
+        "exitTime": "2024-01-20T12:30:00Z",
+        "riskPercentUsed": 2.2,
+        "profitLoss": 110.0,
+        "riskRewardAchieved": 1.0,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Trade 3 - exceeding daily limit"
+      },
+      {
+        "entryTime": "2024-01-20T14:00:00Z",
+        "exitTime": "2024-01-20T15:20:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": 80.0,
+        "riskRewardAchieved": 0.8,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 80.0,
+        "notes": "Trade 4 - not in preferred session"
+      },
+      {
+        "entryTime": "2024-01-20T15:45:00Z",
+        "exitTime": "2024-01-20T17:00:00Z",
+        "riskPercentUsed": 2.3,
+        "profitLoss": -115.0,
+        "riskRewardAchieved": 0.0,
+        "session": "NY",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Trade 5 - revenge trading"
+      },
+      {
+        "entryTime": "2024-01-20T02:00:00Z",
+        "exitTime": "2024-01-20T03:30:00Z",
+        "riskPercentUsed": 2.0,
+        "profitLoss": 90.0,
+        "riskRewardAchieved": 0.9,
+        "session": "ASIA",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 90.0,
+        "notes": "Trade 6 - trading outside preferred hours"
+      },
+      {
+        "entryTime": "2024-01-21T08:00:00Z",
+        "exitTime": "2024-01-21T09:15:00Z",
+        "riskPercentUsed": 2.5,
+        "profitLoss": 125.0,
+        "riskRewardAchieved": 1.0,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Trade 1 - high risk"
+      },
+      {
+        "entryTime": "2024-01-21T09:45:00Z",
+        "exitTime": "2024-01-21T11:00:00Z",
+        "riskPercentUsed": 2.2,
+        "profitLoss": -110.0,
+        "riskRewardAchieved": 0.0,
+        "session": "LONDON",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Trade 2 - should have paused"
+      },
+      {
+        "entryTime": "2024-01-21T11:30:00Z",
+        "exitTime": "2024-01-21T12:45:00Z",
+        "riskPercentUsed": 2.4,
+        "profitLoss": 95.0,
+        "riskRewardAchieved": 0.95,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 95.0,
+        "notes": "Trade 3 - overextended"
+      },
+      {
+        "entryTime": "2024-01-21T14:15:00Z",
+        "exitTime": "2024-01-21T15:30:00Z",
+        "riskPercentUsed": 2.6,
+        "profitLoss": -130.0,
+        "riskRewardAchieved": 0.0,
+        "session": "NY",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Trade 4 - risk increasing, need to stop"
+      }
+    ]
+  },
+  {
+    "state": "HESITANT",
+    "trades": [
+      {
+        "entryTime": "2024-01-22T08:00:00Z",
+        "exitTime": "2024-01-22T08:45:00Z",
+        "riskPercentUsed": 1.0,
+        "profitLoss": 30.0,
+        "riskRewardAchieved": 0.6,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 30.0,
+        "notes": "Exited early, was going to target"
+      },
+      {
+        "entryTime": "2024-01-22T14:00:00Z",
+        "exitTime": "2024-01-22T14:50:00Z",
+        "riskPercentUsed": 1.2,
+        "profitLoss": 25.0,
+        "riskRewardAchieved": 0.42,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 25.0,
+        "notes": "Left money on table"
+      },
+      {
+        "entryTime": "2024-01-23T08:15:00Z",
+        "exitTime": "2024-01-23T09:00:00Z",
+        "riskPercentUsed": 1.0,
+        "profitLoss": 20.0,
+        "riskRewardAchieved": 0.4,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 20.0,
+        "notes": "Should have held longer"
+      },
+      {
+        "entryTime": "2024-01-23T14:20:00Z",
+        "exitTime": "2024-01-23T15:10:00Z",
+        "riskPercentUsed": 1.1,
+        "profitLoss": 28.0,
+        "riskRewardAchieved": 0.51,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 28.0,
+        "notes": "Early exit again"
+      },
+      {
+        "entryTime": "2024-01-24T08:00:00Z",
+        "exitTime": "2024-01-24T08:55:00Z",
+        "riskPercentUsed": 1.0,
+        "profitLoss": 22.0,
+        "riskRewardAchieved": 0.44,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 22.0,
+        "notes": "Fear of losing gains"
+      },
+      {
+        "entryTime": "2024-01-24T14:00:00Z",
+        "exitTime": "2024-01-24T14:40:00Z",
+        "riskPercentUsed": 1.2,
+        "profitLoss": 15.0,
+        "riskRewardAchieved": 0.25,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 15.0,
+        "notes": "Very early exit"
+      },
+      {
+        "entryTime": "2024-01-25T08:30:00Z",
+        "exitTime": "2024-01-25T09:20:00Z",
+        "riskPercentUsed": 1.0,
+        "profitLoss": 18.0,
+        "riskRewardAchieved": 0.36,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 18.0,
+        "notes": "Not trusting the setup"
+      },
+      {
+        "entryTime": "2024-01-25T14:15:00Z",
+        "exitTime": "2024-01-25T15:05:00Z",
+        "riskPercentUsed": 1.1,
+        "profitLoss": 24.0,
+        "riskRewardAchieved": 0.44,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 24.0,
+        "notes": "Premature exit"
+      },
+      {
+        "entryTime": "2024-01-26T08:00:00Z",
+        "exitTime": "2024-01-26T08:50:00Z",
+        "riskPercentUsed": 1.0,
+        "profitLoss": 19.0,
+        "riskRewardAchieved": 0.38,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 19.0,
+        "notes": "Need to work on holding"
+      },
+      {
+        "entryTime": "2024-01-26T14:00:00Z",
+        "exitTime": "2024-01-26T14:45:00Z",
+        "riskPercentUsed": 1.2,
+        "profitLoss": 26.0,
+        "riskRewardAchieved": 0.43,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": true,
+        "targetPercentAchieved": 26.0,
+        "notes": "Targets not being met"
+      }
+    ]
+  },
+  {
+    "state": "AGGRESSIVE",
+    "trades": [
+      {
+        "entryTime": "2024-01-27T08:00:00Z",
+        "exitTime": "2024-01-27T09:30:00Z",
+        "riskPercentUsed": 4.0,
+        "profitLoss": 300.0,
+        "riskRewardAchieved": 1.5,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "High risk trade, got lucky"
+      },
+      {
+        "entryTime": "2024-01-27T14:00:00Z",
+        "exitTime": "2024-01-27T14:20:00Z",
+        "riskPercentUsed": 4.5,
+        "profitLoss": -225.0,
+        "riskRewardAchieved": 0.0,
+        "session": "NY",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Stop loss hit, too much risk"
+      },
+      {
+        "entryTime": "2024-01-28T08:15:00Z",
+        "exitTime": "2024-01-28T09:45:00Z",
+        "riskPercentUsed": 3.8,
+        "profitLoss": -190.0,
+        "riskRewardAchieved": 0.0,
+        "session": "LONDON",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Risk spike, stop loss hit"
+      },
+      {
+        "entryTime": "2024-01-28T14:30:00Z",
+        "exitTime": "2024-01-28T16:00:00Z",
+        "riskPercentUsed": 4.2,
+        "profitLoss": 350.0,
+        "riskRewardAchieved": 1.67,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "High risk, high reward"
+      },
+      {
+        "entryTime": "2024-01-29T08:00:00Z",
+        "exitTime": "2024-01-29T08:30:00Z",
+        "riskPercentUsed": 5.0,
+        "profitLoss": -250.0,
+        "riskRewardAchieved": 0.0,
+        "session": "LONDON",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Extreme risk, stop loss hit quickly"
+      },
+      {
+        "entryTime": "2024-01-29T14:00:00Z",
+        "exitTime": "2024-01-29T15:30:00Z",
+        "riskPercentUsed": 3.5,
+        "profitLoss": -175.0,
+        "riskRewardAchieved": 0.0,
+        "session": "NY",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Stop loss hit, risk too high"
+      },
+      {
+        "entryTime": "2024-01-30T08:30:00Z",
+        "exitTime": "2024-01-30T10:00:00Z",
+        "riskPercentUsed": 4.8,
+        "profitLoss": 400.0,
+        "riskRewardAchieved": 1.67,
+        "session": "LONDON",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Aggressive trade paid off"
+      },
+      {
+        "entryTime": "2024-01-30T14:15:00Z",
+        "exitTime": "2024-01-30T14:45:00Z",
+        "riskPercentUsed": 4.5,
+        "profitLoss": -225.0,
+        "riskRewardAchieved": 0.0,
+        "session": "NY",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "Revenge trading, stop loss hit"
+      },
+      {
+        "entryTime": "2024-01-31T08:00:00Z",
+        "exitTime": "2024-01-31T09:30:00Z",
+        "riskPercentUsed": 3.8,
+        "profitLoss": -190.0,
+        "riskRewardAchieved": 0.0,
+        "session": "LONDON",
+        "stopLossHit": true,
+        "exitedEarly": false,
+        "targetPercentAchieved": 0.0,
+        "notes": "High risk, stop loss hit"
+      },
+      {
+        "entryTime": "2024-01-31T14:00:00Z",
+        "exitTime": "2024-01-31T15:30:00Z",
+        "riskPercentUsed": 4.2,
+        "profitLoss": 320.0,
+        "riskRewardAchieved": 1.52,
+        "session": "NY",
+        "stopLossHit": false,
+        "exitedEarly": false,
+        "targetPercentAchieved": 100.0,
+        "notes": "Aggressive but worked this time"
+      }
+    ]
+  }
+]
+
+
+
+
+
+

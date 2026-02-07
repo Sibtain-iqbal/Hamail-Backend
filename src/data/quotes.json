@@ -1,0 +1,751 @@
+[
+  {
+    "id": 1,
+    "text": "You can be wrong and still be disciplined. That’s how progress is built.",
+    "author": "Zentra",
+    "category": "Discipline",
+    "date": "2025-12-10"
+  },
+  {
+    "id": 2,
+    "text": "The goal is not to win today. The goal is to trade well enough to still be here tomorrow.",
+    "author": "Zentra",
+    "category": "Consistency",
+    "date": "2025-12-11"
+  },
+  {
+    "id": 3,
+    "text": "It’s not whether you’re right or wrong, but how much you make when you’re right and how much you lose when you’re wrong.",
+    "author": "George Soros",
+    "category": "Risk",
+    "date": "2025-12-12"
+  },
+  {
+    "id": 4,
+    "text": "Patience is not the absence of action. It’s the refusal to act without clarity.",
+    "author": "Mark Douglas",
+    "category": "Patience",
+    "date": "2025-12-13"
+  },
+  {
+    "id": 5,
+    "text": "Successful trading is about managing risk, not avoiding it.",
+    "author": "Ed Seykota",
+    "category": "Risk",
+    "date": "2025-12-14"
+  },
+  {
+    "id": 6,
+    "text": "Your edge does not show up every minute. Your discipline should.",
+    "author": "Paul Tudor Jones",
+    "category": "Discipline",
+    "date": "2025-12-15"
+  },
+  {
+    "id": 7,
+    "text": "Losses are feedback. If you listen carefully, they shorten the learning curve.",
+    "author": "Van K. Tharp",
+    "category": "Growth",
+    "date": "2025-12-16"
+  },
+  {
+    "id": 8,
+    "text": "The desire to trade is not the same as permission to trade.",
+    "author": "Brett Steenbarger",
+    "category": "Impulse Control",
+    "date": "2025-12-17"
+  },
+  {
+    "id": 9,
+    "text": "Confidence in trading comes from trusting your process, not forcing outcomes.",
+    "author": "Ari Kiev",
+    "category": "Confidence",
+    "date": "2025-12-18"
+  },
+  {
+    "id": 10,
+    "text": "Calm decisions compound faster than emotional ones.",
+    "author": "Ray Dalio",
+    "category": "Mental Clarity",
+    "date": "2025-12-19"
+  },
+  {
+    "id": 11,
+    "text": "An emotion lasts seconds. The story you attach can last hours.",
+    "author": "Lisa Feldman Barrett",
+    "category": "Emotional Regulation",
+    "date": "2025-12-24"
+  },
+  {
+    "id": 12,
+    "text": "What you practice under pressure is what becomes automatic.",
+    "author": "Daniel Kahneman",
+    "category": "Decision Making",
+    "date": "2025-12-25"
+  },
+  {
+    "id": 13,
+    "text": "The urge to trade is a signal from your nervous system, not a market opportunity.",
+    "author": "Zentra",
+    "category": "Impulse Awareness",
+    "date": "2025-12-30"
+  },
+  {
+    "id": 14,
+    "text": "When uncertainty rises, the brain seeks action. Discipline is choosing stillness.",
+    "author": "Zentra",
+    "category": "Uncertainty",
+    "date": "2025-12-31"
+  },
+  {
+    "id": 15,
+    "text": "Trading stress narrows thinking. Pausing restores perspective.",
+    "author": "Zentra",
+    "category": "Stress Regulation",
+    "date": "2026-01-02"
+  },
+  {
+    "id": 16,
+    "text": "Your edge disappears when the brain switches from probability to certainty-seeking.",
+    "author": "Zentra",
+    "category": "Cognitive Bias",
+    "date": "2026-01-03"
+  },
+  {
+    "id": 17,
+    "text": "A calm trader doesn’t predict more. He reacts less.",
+    "author": "Zentra",
+    "category": "Emotional Control",
+    "date": "2026-01-08"
+  },
+  {
+    "id": 18,
+    "text": "The biggest enemy of good decision-making is the illusion of certainty.",
+    "author": "Daniel Kahneman",
+    "category": "Uncertainty",
+    "date": "2026-01-10"
+  },
+  {
+    "id": 19,
+    "text": "What feels urgent is not always important.",
+    "author": "Brett Steenbarger",
+    "category": "Impulse Control",
+    "date": "2026-01-16"
+  },
+  {
+    "id": 20,
+    "text": "Consistency is a psychological skill, not a personality trait.",
+    "author": "Roy Baumeister",
+    "category": "Self-Control",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 21,
+    "text": "Emotional regulation is the foundation of skilled performance.",
+    "author": "James Gross",
+    "category": "Emotional Control",
+    "date": "2026-01-31"
+  },
+  {
+    "id": 22,
+    "text": "Habits persist because they reduce cognitive effort.",
+    "author": "Wendy Wood",
+    "category": "Habit Formation",
+    "date": "2026-02-02"
+  },
+  {
+    "id": 23,
+    "text": "Self-awareness is the first lever of change.",
+    "author": "Daniel Siegel",
+    "category": "Self-Awareness",
+    "date": "2026-02-06"
+  },
+  {
+    "id": 24,
+    "text": "Self-control is strongest when temptation is removed, not resisted.",
+    "author": "B.J. Fogg",
+    "category": "Self-Regulation",
+    "date": "2026-02-11"
+  },
+  {
+    "id": 25,
+    "text": "What feels urgent often bypasses rational evaluation.",
+    "author": "Daniel Levitin",
+    "category": "Urgency Bias",
+    "date": "2026-02-12"
+  },
+  {
+    "id": 26,
+    "text": "Repetition under calm conditions builds reliability under pressure.",
+    "author": "Anders Ericsson",
+    "category": "Skill Acquisition",
+    "date": "2026-02-13"
+  },
+  {
+    "id": 27,
+    "text": "Attention is limited. Performance depends on where it is placed.",
+    "author": "Adam Gazzaley",
+    "category": "Attention Control",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 28,
+    "text": "Most trading errors occur after the setup has already passed.",
+    "author": "Alexander Elder",
+    "category": "Timing",
+    "date": "2026-02-26"
+  },
+  {
+    "id": 29,
+    "text": "Fear of missing out is a fear of emotional discomfort, not missed profit.",
+    "author": "Ari Kiev",
+    "category": "FOMO",
+    "date": "2026-02-27"
+  },
+  {
+    "id": 30,
+    "text": "A calm trader sees fewer trades and better distributions.",
+    "author": "Mark Douglas",
+    "category": "Patience",
+    "date": "2026-03-02"
+  },
+  {
+    "id": 31,
+    "text": "Fatigue reduces a trader’s ability to wait, not their ability to click.",
+    "author": "Roy Baumeister",
+    "category": "Decision Fatigue",
+    "date": "2026-03-08"
+  },
+  {
+    "id": 32,
+    "text": "Markets reward process over time, but punish emotion instantly.",
+    "author": "Mark Douglas",
+    "category": "Process",
+    "date": "2026-03-09"
+  },
+  {
+    "id": 33,
+    "text": "A trading plan reduces emotional load, not uncertainty.",
+    "author": "Brett Steenbarger",
+    "category": "Planning",
+    "date": "2026-03-13"
+  },
+  {
+    "id": 34,
+    "text": "Good risk management protects the trader, not the trade.",
+    "author": "Ed Seykota",
+    "category": "Risk Management",
+    "date": "2026-03-14"
+  },
+  {
+    "id": 35,
+    "text": "Your edge is not your strategy — it's your ability to stay calm while applying it.",
+    "author": "Brett Steenbarger",
+    "category": "Psychology",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 36,
+    "text": "The most profitable mindset is patience when your brain wants action.",
+    "author": "Daniel Kahneman",
+    "category": "Patience",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 37,
+    "text": "The market rewards the trader who can stay logical when the moment feels emotional.",
+    "author": "Mark Douglas",
+    "category": "Discipline",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 38,
+    "text": "Staying out of a bad trade is also a form of winning.",
+    "author": "Steve Burns",
+    "category": "Discipline",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 39,
+    "text": "A calm nervous system makes better decisions than a confident mind.",
+    "author": "Dr. Julie Smith",
+    "category": "Self-Regulation",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 40,
+    "text": "You don’t rise to your goals; you fall to your psychological habits.",
+    "author": "James Clear",
+    "category": "Habits",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 41,
+    "text": "In trading, clarity beats confidence. Confidence without clarity creates chaos.",
+    "author": "Brett Steenbarger",
+    "category": "Clarity",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 42,
+    "text": "Your nervous system decides before your strategy does. Regulate it.",
+    "author": "Andrew Huberman",
+    "category": "Regulation",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 43,
+    "text": "A disciplined trader is simply someone who learned to pause before reacting.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Discipline",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 44,
+    "text": "Your best trades always come from your least emotional state.",
+    "author": "Dr. Tara Swart",
+    "category": "Emotional Control",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 45,
+    "text": "The market exposes your psychology long before it exposes your skill.",
+    "author": "Brett Steenbarger",
+    "category": "Self-Awareness",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 46,
+    "text": "Your best trades come from the version of you that isn’t rushed.",
+    "author": "Mark Douglas",
+    "category": "Calmness",
+    "date": "2026-05-01"
+  },
+  {
+    "id": 47,
+    "text": "The more you need a trade to work, the less likely you are to follow your plan.",
+    "author": "Brett Steenbarger",
+    "category": "Discipline",
+    "date": "2026-05-02"
+  },
+  {
+    "id": 48,
+    "text": "Pressure creates urgency. Skill creates patience.",
+    "author": "Zentra",
+    "category": "Patience",
+    "date": "2026-05-03"
+  },
+  {
+    "id": 49,
+    "text": "Most traders lose money trying to feel better, not trade better.",
+    "author": "Ari Kiev",
+    "category": "Emotional Awareness",
+    "date": "2026-05-04"
+  },
+  {
+    "id": 50,
+    "text": "Mental stillness is the highest form of market clarity.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Clarity",
+    "date": "2026-05-05"
+  },
+  {
+    "id": 51,
+    "text": "A consistent trader is simply someone who learned to stop arguing with uncertainty.",
+    "author": "Daniel Kahneman",
+    "category": "Uncertainty",
+    "date": "2026-05-06"
+  },
+  {
+    "id": 52,
+    "text": "Your equity curve improves when your reactions slow down.",
+    "author": "Andrew Huberman",
+    "category": "Regulation",
+    "date": "2026-05-07"
+  },
+  {
+    "id": 53,
+    "text": "A patient trader is not slow, he is selective.",
+    "author": "Paul Tudor Jones",
+    "category": "Patience",
+    "date": "2026-05-08"
+  },
+  {
+    "id": 54,
+    "text": "When uncertainty rises, your breathing becomes your strategy.",
+    "author": "Wim Hof",
+    "category": "Breathwork",
+    "date": "2026-05-09"
+  },
+  {
+    "id": 55,
+    "text": "Your future equity curve rises every time you avoid an emotional decision.",
+    "author": "Morgan Housel",
+    "category": "Decision-Making",
+    "date": "2026-05-10"
+  },
+  {
+    "id": 56,
+    "text": "Success in trading is emotional subtraction, not intellectual addition.",
+    "author": "Nassim Taleb",
+    "category": "Psychology",
+    "date": "2026-02-11"
+  },
+  {
+    "id": 57,
+    "text": "When the mind is grounded, volatility becomes information—not threat.",
+    "author": "Dan Siegel",
+    "category": "Emotional Regulation",
+    "date": "2026-02-12"
+  },
+  {
+    "id": 58,
+    "text": "Master your emotions, and every chart becomes easier to read.",
+    "author": "Bessel van der Kolk",
+    "category": "Emotional Control",
+    "date": "2026-05-13"
+  },
+  {
+    "id": 59,
+    "text": "The market rewards the trader who can observe without reacting.",
+    "author": "Thich Nhat Hanh",
+    "category": "Mindfulness",
+    "date": "2026-05-14"
+  },
+  {
+    "id": 60,
+    "text": "The calmer you are, the more information the market reveals.",
+    "author": "Zentra",
+    "category": "Clarity",
+    "date": "2026-05-15"
+  },
+  {
+    "id": 61,
+    "text": "If you can stay objective, even your losing days become productive.",
+    "author": "Ray Dalio",
+    "category": "Objectivity",
+    "date": "2026-05-18"
+  },
+  {
+    "id": 62,
+    "text": "You trade better when you stop trying to control the market and start controlling yourself.",
+    "author": "Mark Douglas",
+    "category": "Self-Control",
+    "date": "2026-05-20"
+  },
+  {
+    "id": 63,
+    "text": "A calm nervous system is a trading edge.",
+    "author": "Andrew Huberman",
+    "category": "Neuroscience",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 64,
+    "text": "Confidence is built on repeated evidence, not lucky outcomes.",
+    "author": "James Clear",
+    "category": "Consistency",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 65,
+    "text": "When emotions rise, probability thinking disappears. Protect your clarity.",
+    "author": "Daniel Kahneman",
+    "category": "Decision-Making",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 66,
+    "text": "You don’t need more setups — you need more self-control.",
+    "author": "Roy Baumeister",
+    "category": "Self-Control",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 67,
+    "text": "If you can regulate your emotions, you can regulate your equity curve.",
+    "author": "Dr. Jud Brewer",
+    "category": "Emotional Regulation",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 68,
+    "text": "You trade best when you stop defending your ego.",
+    "author": "Dr. David Hawkins",
+    "category": "Ego",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 69,
+    "text": "A trader who can stay calm during uncertainty has already won half the battle.",
+    "author": "Thich Nhat Hanh",
+    "category": "Mindfulness",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 70,
+    "text": "The more emotionally balanced you become, the less you chase the market.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Mindfulness",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 71,
+    "text": "Every impulsive trade is just an untrained emotion asking for attention.",
+    "author": "Gabor Maté",
+    "category": "Self-Awareness",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 72,
+    "text": "Your discipline grows in the moments you choose patience over pressure.",
+    "author": "Dr. Kelly McGonigal",
+    "category": "Discipline",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 73,
+    "text": "No chart pattern is more powerful than a regulated mind.",
+    "author": "Bessel van der Kolk",
+    "category": "Emotional Control",
+    "date": "2026-01-28"
+  },
+  {
+    "id": 74,
+    "text": "A profitable trader is simply someone who mastered the pause.",
+    "author": "James Clear",
+    "category": "Discipline",
+    "date": "2026-05-05"
+  },
+  {
+    "id": 75,
+    "text": "Calmness is a trading skill you build, not a personality you’re born with.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Emotional Control",
+    "date": "2026-05-08"
+  },
+  {
+    "id": 76,
+    "text": "Good traders track the market. Great traders track themselves.",
+    "author": "Daniel Kahneman",
+    "category": "Self-Awareness",
+    "date": "2026-05-10"
+  },
+  {
+    "id": 77,
+    "text": "Your nervous system drives the click. Your discipline decides if it was worth it.",
+    "author": "Andrew Huberman",
+    "category": "Neuroscience",
+    "date": "2026-05-07"
+  },
+  {
+    "id": 78,
+    "text": "Success in trading is built on how well you manage the moments between trades.",
+    "author": "Steve Burns",
+    "category": "Discipline",
+    "date": "2026-05-08"
+  },
+  {
+    "id": 79,
+    "text": "When uncertainty rises, your breathing becomes your strategy.",
+    "author": "Wim Hof",
+    "category": "Breathwork",
+    "date": "2026-05-09"
+  },
+  {
+    "id": 80,
+    "text": "Your future equity curve rises every time you avoid an emotional decision.",
+    "author": "Morgan Housel",
+    "category": "Decision-Making",
+    "date": "2026-05-10"
+  },
+  {
+    "id": 81,
+    "text": "Most trading damage comes from reacting too fast, not thinking too slow.",
+    "author": "Daniel Kahneman",
+    "category": "Decision-Making",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 82,
+    "text": "Your emotional triggers repeat themselves until you learn from them.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Self-Awareness",
+    "date": "2026-02-26"
+  },
+  {
+    "id": 83,
+    "text": "Every unnecessary trade begins with an unexamined urge.",
+    "author": "Thich Nhat Hanh",
+    "category": "Impulse Control",
+    "date": "2026-02-27"
+  },
+  {
+    "id": 84,
+    "text": "Retraining your reactions is more profitable than refining your entries.",
+    "author": "Roy Baumeister",
+    "category": "Self-Regulation",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 85,
+    "text": "Your best trades come from the version of you that isn’t rushed.",
+    "author": "Mark Douglas",
+    "category": "Calmness",
+    "date": "2026-05-01"
+  },
+  {
+    "id": 86,
+    "text": "The more you need a trade to work, the less likely you are to follow your plan.",
+    "author": "Brett Steenbarger",
+    "category": "Discipline",
+    "date": "2026-05-02"
+  },
+  {
+    "id": 87,
+    "text": "Pressure creates urgency. Skill creates patience.",
+    "author": "Zentra",
+    "category": "Patience",
+    "date": "2026-05-03"
+  },
+  {
+    "id": 88,
+    "text": "Most traders lose money trying to feel better, not trade better.",
+    "author": "Ari Kiev",
+    "category": "Emotional Awareness",
+    "date": "2026-05-04"
+  },
+  {
+    "id": 89,
+    "text": "Mental stillness is the highest form of market clarity.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Clarity",
+    "date": "2026-05-05"
+  },
+  {
+    "id": 90,
+    "text": "A consistent trader is simply someone who learned to stop arguing with uncertainty.",
+    "author": "Daniel Kahneman",
+    "category": "Uncertainty",
+    "date": "2026-05-06"
+  },
+  {
+    "id": 91,
+    "text": "Your equity curve improves when your reactions slow down.",
+    "author": "Andrew Huberman",
+    "category": "Regulation",
+    "date": "2026-05-07"
+  },
+  {
+    "id": 92,
+    "text": "A patient trader is not slow, he is selective.",
+    "author": "Paul Tudor Jones",
+    "category": "Patience",
+    "date": "2026-05-08"
+  },
+  {
+    "id": 93,
+    "text": "When uncertainty rises, your breathing becomes your strategy.",
+    "author": "Wim Hof",
+    "category": "Breathwork",
+    "date": "2026-05-09"
+  },
+  {
+    "id": 94,
+    "text": "Your future equity curve rises every time you avoid an emotional decision.",
+    "author": "Morgan Housel",
+    "category": "Decision-Making",
+    "date": "2026-05-10"
+  },
+  {
+    "id": 95,
+    "text": "Good traders analyse markets. Great traders analyse themselves.",
+    "author": "Victor Sperandeo",
+    "category": "Self-Reflection",
+    "date": "2026-02-08"
+  },
+  {
+    "id": 96,
+    "text": "Your nervous system reacts in milliseconds; your strategy needs minutes.",
+    "author": "Daniel Kahneman",
+    "category": "Thinking",
+    "date": "2026-02-09"
+  },
+  {
+    "id": 97,
+    "text": "Success in trading is emotional subtraction, not intellectual addition.",
+    "author": "Nassim Taleb",
+    "category": "Psychology",
+    "date": "2026-02-11"
+  },
+  {
+    "id": 98,
+    "text": "When the mind is grounded, volatility becomes information—not threat.",
+    "author": "Dan Siegel",
+    "category": "Emotional Regulation",
+    "date": "2026-02-12"
+  },
+  {
+    "id": 99,
+    "text": "The trader who slows down their reactions speeds up their progress.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Mindfulness",
+    "date": "2026-02-15"
+  },
+  {
+    "id": 100,
+    "text": "A regulated breath is the first step in a regulated trade.",
+    "author": "James Nestor",
+    "category": "Breathwork",
+    "date": "2026-02-20"
+  },
+  {
+    "id": 101,
+    "text": "A profitable trader is simply someone who mastered the pause.",
+    "author": "James Clear",
+    "category": "Discipline",
+    "date": "2026-05-05"
+  },
+  {
+    "id": 102,
+    "text": "Calmness is a trading skill you build, not a personality you’re born with.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Emotional Control",
+    "date": "2026-05-08"
+  },
+  {
+    "id": 103,
+    "text": "Good traders track the market. Great traders track themselves.",
+    "author": "Daniel Kahneman",
+    "category": "Self-Awareness",
+    "date": "2026-05-10"
+  },
+  {
+    "id": 104,
+    "text": "Your nervous system drives the click. Your discipline decides if it was worth it.",
+    "author": "Andrew Huberman",
+    "category": "Neuroscience",
+    "date": "2026-05-07"
+  },
+  {
+    "id": 105,
+    "text": "Success in trading is built on how well you manage the moments between trades.",
+    "author": "Steve Burns",
+    "category": "Discipline",
+    "date": "2026-05-08"
+  },
+  {
+    "id": 106,
+    "text": "When uncertainty rises, your breathing becomes your strategy.",
+    "author": "Wim Hof",
+    "category": "Breathwork",
+    "date": "2026-05-09"
+  },
+  {
+    "id": 107,
+    "text": "Your future equity curve rises every time you avoid an emotional decision.",
+    "author": "Morgan Housel",
+    "category": "Decision-Making",
+    "date": "2026-05-10"
+  }
+]

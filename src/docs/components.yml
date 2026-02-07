@@ -1,0 +1,216 @@
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+        email:
+          type: string
+          format: email
+        name:
+          type: string
+        role:
+          type: string
+          enum: [user, admin]
+      example:
+        id: 5ebac534954b54139806c112
+        email: fake@example.com
+        name: fake name
+        role: user
+
+    Token:
+      type: object
+      properties:
+        token:
+          type: string
+        expires:
+          type: string
+          format: date-time
+      example:
+        token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZWJhYzUzNDk1NGI1NDEzOTgwNmMxMTIiLCJpYXQiOjE1ODkyOTg0ODQsImV4cCI6MTU4OTMwMDI4NH0.m1U63blB0MLej_WfB7yC2FTMnCziif9X8yzwDEfJXAg
+        expires: 2020-05-12T16:18:04.793Z
+
+    AuthTokens:
+      type: object
+      properties:
+        access:
+          $ref: '#/components/schemas/Token'
+        refresh:
+          $ref: '#/components/schemas/Token'
+
+    TradingPlan:
+      type: object
+      properties:
+        id:
+          type: string
+        userId:
+          type: string
+        maxTradesPerDay:
+          type: integer
+          minimum: 0
+        riskPercentPerTrade:
+          type: number
+          minimum: 0
+          maximum: 100
+        targetRiskRewardRatio:
+          type: number
+          minimum: 0
+        preferredSessions:
+          type: array
+          items:
+            type: string
+            enum: [LONDON, NY, ASIA]
+        stopLossDiscipline:
+          type: string
+          enum: [ALWAYS, FLEXIBLE]
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      example:
+        id: 5ebac534954b54139806c112
+        userId: 5ebac534954b54139806c111
+        maxTradesPerDay: 5
+        riskPercentPerTrade: 2.0
+        targetRiskRewardRatio: 1.5
+        preferredSessions: [LONDON, NY]
+        stopLossDiscipline: ALWAYS
+        createdAt: 2020-05-12T16:18:04.793Z
+        updatedAt: 2020-05-12T16:18:04.793Z
+
+    Trade:
+      type: object
+      properties:
+        id:
+          type: string
+        userId:
+          type: string
+        entryTime:
+          type: string
+          format: date-time
+        exitTime:
+          type: string
+          format: date-time
+        riskPercentUsed:
+          type: number
+          nullable: true
+          minimum: 0
+        profitLoss:
+          type: number
+        riskRewardAchieved:
+          type: number
+          nullable: true
+        session:
+          type: string
+          enum: [LONDON, NY, ASIA]
+        stopLossHit:
+          type: boolean
+        exitedEarly:
+          type: boolean
+        targetPercentAchieved:
+          type: number
+          nullable: true
+        notes:
+          type: string
+        mt5DealId:
+          type: number
+          nullable: true
+        mt5Symbol:
+          type: string
+          nullable: true
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      example:
+        id: 5ebac534954b54139806c112
+        userId: 5ebac534954b54139806c111
+        entryTime: 2023-01-01T09:00:00Z
+        exitTime: 2023-01-01T10:30:00Z
+        riskPercentUsed: 2.0
+        profitLoss: 150.0
+        riskRewardAchieved: 1.5
+        session: LONDON
+        stopLossHit: false
+        exitedEarly: false
+        targetPercentAchieved: 100.0
+        notes: 'Good trade setup'
+        mt5DealId: 12345678
+        mt5Symbol: 'EURUSD'
+        createdAt: 2020-05-12T16:18:04.793Z
+        updatedAt: 2020-05-12T16:18:04.793Z
+
+    Error:
+      type: object
+      properties:
+        code:
+          type: number
+        message:
+          type: string
+
+  responses:
+    DuplicateEmail:
+      description: Email already taken
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 400
+            message: Email already taken
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 401
+            message: Please authenticate
+    Forbidden:
+      description: Forbidden
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 403
+            message: Forbidden
+    TradingPlanRequired:
+      description: Trading plan required
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 403
+            message: Trading plan required. Please create a trading plan before accessing this resource.
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 404
+            message: Not found
+    BadRequest:
+      description: Bad request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 400
+            message: Validation error
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
