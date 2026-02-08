@@ -5,7 +5,6 @@
   "builds": [
     {
       "src": "src/index.js",
-      "srcs": "src/index.jsx",
       "use": "@vercel/node",
       "config": {
         "includeFiles": ["src/**", "package.json", "pnpm-lock.yaml"],
@@ -34,7 +33,6 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "envPrefix": "ZENTRA_",
   "functions": {
     "src/index.js": {
       "memory": 1024,
