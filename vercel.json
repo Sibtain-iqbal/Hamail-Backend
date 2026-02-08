@@ -1,12 +1,30 @@
 {
   "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
   "builds": [
     {
       "src": "src/index.js",
-      "use": "@vercel/node"
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["src/**", "package.json", "pnpm-lock.yaml"],
+        "excludeFiles": ["tests/**", "docs/**", "node_modules/**", ".git/**", ".gitignore", "README.md", "CHANGELOG.md"]
+      }
     }
   ],
   "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "src/index.js"
+    },
+    {
+      "src": "/v1/(.*)",
+      "dest": "src/index.js"
+    },
+    {
+      "src": "/v2/(.*)",
+      "dest": "src/index.js"
+    },
     {
       "src": "/(.*)",
       "dest": "src/index.js"
@@ -14,5 +32,12 @@
   ],
   "env": {
     "NODE_ENV": "production"
+  },
+  "envPrefix": "ZENTRA_",
+  "functions": {
+    "src/index.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
   }
 }
