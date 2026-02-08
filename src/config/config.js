@@ -26,7 +26,7 @@ const envVarsSchema = Joi.object()
     EMAIL_FROM: Joi.string().description('the from field in the emails sent by the app'),
     GOOGLE_CLIENT_ID: Joi.string().description('Google OAuth client ID'),
     GOOGLE_CLIENT_SECRET: Joi.string().description('Google OAuth client secret'),
-    FRONTEND_URL: Joi.string().default('http://localhost:3000').description('Frontend URL for OAuth redirects'),
+    FRONTEND_URL: Joi.string().default('http://localhost:2000').description('Frontend URL for OAuth redirects'),
     MT5_API_URL: Joi.string().default('http://localhost:4000').description('MT5 Python service API URL'),
     MT5_API_KEY: Joi.string().default('your-secret-api-key-change-in-production').description('MT5 Python service API key'),
     MT5_ENCRYPTION_KEY: Joi.string().description('MT5 password encryption key (defaults to JWT_SECRET if not provided)'),
