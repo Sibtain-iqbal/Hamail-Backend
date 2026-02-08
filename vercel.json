@@ -5,6 +5,7 @@
   "builds": [
     {
       "src": "src/index.js",
+      "srcs": "src/index.jsx",
       "use": "@vercel/node",
       "config": {
         "includeFiles": ["src/**", "package.json", "pnpm-lock.yaml"],
