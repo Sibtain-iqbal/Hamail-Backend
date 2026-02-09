@@ -42,40 +42,8 @@ app.use(mongoSanitize());
 app.use(compression());
 
 // enable cors
-const allowedOrigins = [
-  'https://hamail-frontEnd.vercel.app',
-  'https://hamail-backend-spxx.vercel.app',
-  'http://localhost:2000',
-];
-
-app.use(
-  cors({
-    origin: true,
-    credentials: true,
-  })
-);
-
-const corsOptions = {
-  origin(origin, callback) {
-    // allow requests with no origin (mobile apps, curl, postman)
-    if (!origin) return callback(null, true);
-
-    if (allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    } else {
-      return callback(new Error('Not allowed by CORS'));
-    }
-  },
-  credentials: true, // allow cookies & auth headers
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-};
-
-// Apply CORS BEFORE routes
-app.use(cors(corsOptions));
-
-// Handle preflight
-app.options('*', cors(corsOptions));
+app.use(cors());
+app.options('*', cors());
 
 // jwt authentication
 app.use(passport.initialize());
@@ -90,9 +58,7 @@ if (config.env === 'production') {
 
 // v1 api routes
 app.use('/v1', routes);
-app.use('/api/health-check', (req, res) => {
-  res.json({ message: 'api working fines' });
-});
+
 // v2 api routes
 app.use('/v2', routesV2);
 
