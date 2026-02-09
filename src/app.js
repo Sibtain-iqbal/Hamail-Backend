@@ -42,8 +42,29 @@ app.use(mongoSanitize());
 app.use(compression());
 
 // enable cors
-app.use(cors());
-app.options('*', cors());
+const allowedOrigins = ['https://zentradelta.vercel.app', 'http://localhost:2000'];
+
+const corsOptions = {
+  origin(origin, callback) {
+    // allow requests with no origin (mobile apps, curl, postman)
+    if (!origin) return callback(null, true);
+
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true, // allow cookies & auth headers
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+};
+
+// Apply CORS BEFORE routes
+app.use(cors(corsOptions));
+
+// Handle preflight
+app.options('*', cors(corsOptions));
 
 // jwt authentication
 app.use(passport.initialize());
