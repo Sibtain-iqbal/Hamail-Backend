@@ -6,7 +6,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://zentradelta.vercel.app"
+          "value": "https://hamail-front-end.vercel.app"
         },
         {
           "key": "Access-Control-Allow-Credentials",

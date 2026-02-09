@@ -43,7 +43,7 @@ app.use(compression());
 
 // enable cors
 const corsOptions = {
-  origin: ['https://zentradelta.vercel.app', 'https://hamail-backend-spxx.vercel.app'],
+  origin: ['https://hamail-front-end.vercel.app', 'https://hamail-backend-spxx.vercel.app'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
