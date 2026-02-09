@@ -79,7 +79,9 @@ if (config.env === 'production') {
 
 // v1 api routes
 app.use('/v1', routes);
-
+app.use('/health-check', (req, res) => {
+  res.json({ message: 'api working fine' });
+});
 // v2 api routes
 app.use('/v2', routesV2);
 
