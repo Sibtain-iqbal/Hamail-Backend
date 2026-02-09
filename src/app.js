@@ -42,7 +42,18 @@ app.use(mongoSanitize());
 app.use(compression());
 
 // enable cors
-const allowedOrigins = ['https://zentradelta.vercel.app', 'http://localhost:2000'];
+const allowedOrigins = [
+  'https://hamail-frontEnd.vercel.app',
+  'https://hamail-backend-spxx.vercel.app',
+  'http://localhost:2000',
+];
+
+app.use(
+  cors({
+    origin: true,
+    credentials: true,
+  })
+);
 
 const corsOptions = {
   origin(origin, callback) {
